@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Overview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="back-nav">
+            <button onclick="goBack()" class="btn btn-secondary">
+                &larr; Back to List
+            </button>
+        </nav>
+
+        <div id="result-container" class="result-card">
+            <p style="text-align:center; color: var(--text-muted);">Loading performance profile...</p>
+        </div>
+    </div>
+
+    <!-- Data Script -->
+    <script src="js/data.js"></script>
+    <!-- Result Logic Script -->
+    <script src="js/result.js"></script>
+</body>
+
+</html>

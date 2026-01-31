@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Dashboard</title>
+    <!-- Font is imported in CSS now, but keeping a preconnect is good practice, though removing the specific link to avoid double load or conflicts with CSS import which handles weights better -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Student Academic Dashboard</h1>
+            <p class="subtitle">Interactive Performance Tracking System</p>
+        </header>
+
+        <main id="student-list" class="student-grid">
+        </main>
+    </div>
+
+    <!-- Data Script -->
+    <script src="js/data.js"></script>
+    <!-- Main Logic Script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
