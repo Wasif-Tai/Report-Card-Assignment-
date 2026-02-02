@@ -47,3 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial render
     renderStudents();
 });
+
+function goback() {
+    window.location.href = 'index.html';
+
+};

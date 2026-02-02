@@ -143,3 +143,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     loadStudentResult();
 });
+
+function goback() {
+    window.location.href = 'index.html';
+
+};

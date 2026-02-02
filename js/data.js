@@ -60,7 +60,7 @@ const students = [
     },
     {
         id: "STD-1002",
-        name: "Sara",
+        name: "John Doe",
         semesters: [
             { semester: 1, subjects: [{name: "Sub1", marks: 45}, {name: "Sub2", marks: 50}, {name: "Sub3", marks: 40}, {name: "Sub4", marks: 55}, {name: "Sub5", marks: 42}] }, // Weak student example
             { semester: 2, subjects: [{name: "Sub1", marks: 50}, {name: "Sub2", marks: 55}, {name: "Sub3", marks: 45}, {name: "Sub4", marks: 60}, {name: "Sub5", marks: 48}] },
@@ -71,7 +71,7 @@ const students = [
     },
     {
         id: "STD-1003",
-        name: "Abdur Rehman",
+        name: "Lorem Impsum",
         semesters: [
             // Consistent A grade student
             { semester: 1, subjects: [{name: "Mth", marks: 90}, {name: "Eng", marks: 88}, {name: "CS", marks: 95}, {name: "Phy", marks: 92}, {name: "Chm", marks: 90}] },
@@ -83,7 +83,7 @@ const students = [
     },
     {
         id: "STD-1004",
-        name: "Babar Azam",
+        name: "Abdur Rehman",
         semesters: [
             // Average student
             { semester: 1, subjects: [{name: "S1", marks: 60}, {name: "S2", marks: 65}, {name: "S3", marks: 58}, {name: "S4", marks: 62}, {name: "S5", marks: 70}] },
@@ -95,7 +95,7 @@ const students = [
     },
     {
         id: "STD-1005",
-        name: "Cristiano Ronaldo Bakra",
+        name: "Ahmed",
         semesters: [
              // Mixed
             { semester: 1, subjects: [{name: "S1", marks: 70}, {name: "S2", marks: 80}, {name: "S3", marks: 90}, {name: "S4", marks: 60}, {name: "S5", marks: 75}] },
